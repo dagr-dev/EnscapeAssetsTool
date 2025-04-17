@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "EnscapeTransferTool.SharedProject", "TransferTool.SharedProject\EnscapeTransferTool.SharedProject.shproj", "{B727A9DE-463C-44B1-98C6-D4952EF8803A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnscapeTransferTool.Revit.2023", "TransferTool.Revit.2023\EnscapeTransferTool.Revit.2023.csproj", "{9DC2326E-6470-4BCA-907F-65D8757939DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnscapeTransferTool.Revit.2022", "TransferTool.Revit.2022\EnscapeTransferTool.Revit.2022.csproj", "{45075526-5FFC-442F-BDEC-42469C57CDC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DC2326E-6470-4BCA-907F-65D8757939DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC2326E-6470-4BCA-907F-65D8757939DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC2326E-6470-4BCA-907F-65D8757939DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC2326E-6470-4BCA-907F-65D8757939DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45075526-5FFC-442F-BDEC-42469C57CDC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45075526-5FFC-442F-BDEC-42469C57CDC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45075526-5FFC-442F-BDEC-42469C57CDC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45075526-5FFC-442F-BDEC-42469C57CDC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33B8BA26-BD31-43AF-AEBB-D9ED962F1812}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		TransferTool.SharedProject\TransferTool.SharedProject.projitems*{45075526-5ffc-442f-bdec-42469c57cdc0}*SharedItemsImports = 4
+		TransferTool.SharedProject\TransferTool.SharedProject.projitems*{9dc2326e-6470-4bca-907f-65d8757939df}*SharedItemsImports = 4
+		TransferTool.SharedProject\TransferTool.SharedProject.projitems*{b727a9de-463c-44b1-98c6-d4952ef8803a}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
