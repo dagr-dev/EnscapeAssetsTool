@@ -199,10 +199,10 @@ namespace ReadRhinoFile
 
                 var time = Stopwatch.StartNew();
 
-                string hostPath = @"H:\Denmark\Copenhagen\Sustainability\Engineering\Software tools\Revit\Enscape AssetDefinitions 2023\";
+                string hostPath = @"\Revit\Enscape AssetDefinitions 2023\";
                 int instanceNum = 0;
 
-                string[] fileNames = File.ReadAllLines(@"H:\Denmark\Copenhagen\Sustainability\Engineering\Software tools\Revit\AssetsNames.csv");
+                string[] fileNames = File.ReadAllLines(@"\Revit\AssetsNames.csv");
                 HashSet<string> fileNamesHashSet = new HashSet<string>(fileNames);
 
                 time.Stop();
